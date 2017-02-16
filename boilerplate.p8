@@ -83,6 +83,8 @@ end
 -- #game main
 --
 function game_init()
+	p_init()
+	
 	cart_control(game_update,game_draw)
 end
 
