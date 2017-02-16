@@ -15,3 +15,6 @@ Change, tweak and reuse code as you need.
 
 ##Contents
 * `boilterplate.p8` - Ready to go cart with basic structure and helpers
+* `blankcart.p8` - Barebones for cart
+
+* `mousetouch.p8` - Functions for mouse/touch detection
