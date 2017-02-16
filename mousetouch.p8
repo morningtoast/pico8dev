@@ -47,6 +47,7 @@ end
 
 
 function _draw()
+	cls()
 	print("x:"..mx.." y:"..my, 1,1, 5)
 	print(click,40,60, 7)
 end
