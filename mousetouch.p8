@@ -21,7 +21,7 @@ end
 
 --Returns TRUE if click matches passed ID
 --0=no button,1=left,2=right,4=middle
-function mouse_click(btn) if stat(34)==btn then return true else return false end
+function mouse_click(btn) if stat(34)==btn then return true else return false end end
 
 
 
@@ -47,8 +47,8 @@ end
 
 
 function _draw()
-	print("x:"..mx.." y:"..my, 1,1,5)
-	print(click,40,60,7)
+	print("x:"..mx.." y:"..my, 1,1, 5)
+	print(click,40,60, 7)
 end
 
 
