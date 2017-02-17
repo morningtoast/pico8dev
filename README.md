@@ -18,3 +18,4 @@ Change, tweak and reuse code as you need.
 * `blankcart.p8` - Barebones for cart
 * `mousetouch.p8` - Functions for mouse/touch detection
 * `explosion_lib.p8` - Explosion particle library
+* `fadetext.p8` - Fading text screens. For game startup.
