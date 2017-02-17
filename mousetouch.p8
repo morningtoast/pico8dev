@@ -48,6 +48,7 @@ end
 
 function _draw()
 	cls()
+	pset(mx,my,10)
 	print("x:"..mx.." y:"..my, 1,1, 5)
 	print(click,40,60, 7)
 end
