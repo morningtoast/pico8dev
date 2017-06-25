@@ -13,7 +13,7 @@ Change, tweak and reuse code as you need.
 
 ---
 
-##Contents
+## Contents
 * `boilterplate.p8` - Ready to go cart with basic structure and helpers
 * `blankcart.p8` - Barebones for cart
 * `mousetouch.p8` - Functions for mouse/touch detection
@@ -22,11 +22,11 @@ Change, tweak and reuse code as you need.
 * `glitchfx.p8` - Scanline glitch effect
 
 
-##My approach
+## My approach
 I approach most of my games with the same process and structure, as you'll find
 in the boilerplate. I'll do my best to explain myself a bit.
 
-###Defining a scene
+### Defining a scene
 I think about each major type of content as a scene. So the title screen
 is a scene. The tutorial is a scene. The game over is a scene. And the main
 gameplay is a scene. Every time the game content and/or interaction changes, that's
@@ -40,7 +40,7 @@ like moving the player, enemy movement, backgrounds, UI...whatever.
 You'll see that the boilerplate comes with 3 predefined scenes: title, game over,
 and gameplay. And specifically, the gameplay scene calls the player functions.
 
-###Keep the main loop lean
+### Keep the main loop lean
 The main system loops - _update() and _draw() - I try to keep as lean
 as possible. I define an global cart update and cart draw function that is
 called within the system loop all the time. I then assign these cart functions
@@ -52,7 +52,7 @@ it lets me run any given scene individually at any time during development,
 which makes for much easier debugging and building.
 
 
-###Getting better at saving tokens
+### Getting better at saving tokens
 Token count is the only real risk in Pico-8 as far as I'm concerned. However, for
 most games, that count will never be reached. I've only had one game reach the
 limit and that was because of my quasi-poor coding and not because my game was
@@ -69,7 +69,7 @@ I've found it saves more to be *feel* less efficient with your code. Once you st
 adding complexity while trying to be smart about things, that's when you'll start
 to burn tokens. Don't bring modern worries to this "old school" language.
 
-##Code quality rarely matters
+## Code quality rarely matters
 I see a lot of people on the Pico-8 forum talking about how bad their code is
 and saying it could be better...well, of course it could. It can always be
 better, but here's the thing - the quality of your code doesn't matter.
