@@ -339,10 +339,10 @@ end
 function distance(ox,oy, px,py)
   local a = ox-px
   local b = oy-py
-  return pythag(a,b)
+  return pythag(a,b)*16
 end
 
-function pythag (a, b) return sqrt(a^2+b^2) end
+function pythag (a, b) return sqrt(a^2+b^2)/16 end
 
 
 function angle_lerp(angle1, angle2, t)
